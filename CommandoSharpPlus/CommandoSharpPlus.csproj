@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Reference Include="DSharpPlus, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null">
+        <HintPath>..\..\DSharpPlus\DSharpPlus\bin\Debug\netstandard2.0\DSharpPlus.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Emzi0767.Common" Version="2.6.2" />
+      <PackageReference Include="Microsoft.Data.Sqlite" Version="6.0.0-preview.6.21352.1" />
+      <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="6.0.0-preview.6.21352.12" />
+      <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    </ItemGroup>
+
+</Project>
